@@ -30,3 +30,9 @@ li2.style.backgroundColor = 'orange';
 
 const paragraph = document.querySelector('p');
 paragraph.innerHTML = 'Ini diubah dari javascript';
+
+// // querySelectorAll -> NodeList
+const paragraf = document.querySelectorAll('p');
+for (let i = 0; i < paragraf.length; i++) {
+    paragraf[i].style.backgroundColor = 'lightblue';
+}
