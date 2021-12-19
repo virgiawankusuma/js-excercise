@@ -14,3 +14,5 @@ halo();
 window.halo();
 // // // atau
 this.halo();
+
+// this mengembalikan object Global
