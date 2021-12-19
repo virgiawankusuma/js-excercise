@@ -38,3 +38,13 @@ function buatObjectMahasiswa(nama, nim, email, jurusan) {
 // // // Isi Object
 let mhs3 = buatObjectMahasiswa('Teguh Kusuma', '181208278372', 'teguhkusuma@unisnu.ac.id', 'Teknik Nuklir');
 let mhs4 = buatObjectMahasiswa('Awan', '18120822333', 'awan@unisnu.ac.id', 'Teknik Pangan');
+
+// // Constructor
+function Mahasiswa(nama, nim, email, jurusan) {
+    this.nama = nama;
+    this.nim = nim;
+    this.email = email;
+    this.jurusan = jurusan;
+}
+// // // Isi Object
+let mhs5 = new Mahasiswa('Ilyas', '18120822334', 'ilyas@unisnu.ac.id', 'Teknik Elektro');
