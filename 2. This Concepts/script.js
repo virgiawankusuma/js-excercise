@@ -18,10 +18,19 @@
 // // this mengembalikan object Global
 
 // // cara 2 - obejct literal
-var obj = { a: 1, nama: 'fikri' };
-obj.halo = function () {
+// var obj = { a: 1, nama: 'fikri' };
+// obj.halo = function () {
+//     console.log(this);
+//     console.log('halo');
+// }
+// obj.halo();
+// // this mengembalikan object yang Bersangkutan
+
+// // cara 3 - constructor
+function Halo() {
     console.log(this);
     console.log('halo');
 }
-obj.halo();
-// this mengembalikan object yang Bersangkutan
+var obj1 = new Halo();
+var obj2 = new Halo();
+// this mengembalikan object yang baru dibuat
