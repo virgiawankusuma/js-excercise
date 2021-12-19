@@ -20,3 +20,21 @@ const mhs2 = {
         provinsi: 'Jawa Tengah'
     }
 }
+
+// // Function Declaration
+function buatObjectMahasiswa(nama, nim, email, jurusan) {
+    // Declarasi Object kososng
+    const mhs = {};
+
+    // Inisialisasi Object mhs dengan Parameter
+    mhs.nama = nama;
+    mhs.nim = nim;
+    mhs.email = email;
+    mhs.jurusan = jurusan;
+
+    return mhs;
+}
+
+// // // Isi Object
+let mhs3 = buatObjectMahasiswa('Teguh Kusuma', '181208278372', 'teguhkusuma@unisnu.ac.id', 'Teknik Nuklir');
+let mhs4 = buatObjectMahasiswa('Awan', '18120822333', 'awan@unisnu.ac.id', 'Teknik Pangan');
