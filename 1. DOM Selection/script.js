@@ -36,3 +36,8 @@ const paragraf = document.querySelectorAll('p');
 for (let i = 0; i < paragraf.length; i++) {
     paragraf[i].style.backgroundColor = 'lightblue';
 }
+
+// // mengubah node root
+const sectionB = document.querySelector('section#b');
+const paragraph4 = sectionB.getElementsByTagName('p')[0];
+paragraph4.style.backgroundColor = 'yellow';
