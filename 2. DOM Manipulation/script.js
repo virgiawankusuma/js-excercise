@@ -72,3 +72,9 @@ h2baru.appendChild(textH2baru);
 
 // // // // mengganti elemen dengan elemen baru
 sectionB.replaceChild(h2baru, p4);
+
+
+// menandai elemen baru
+pBaru.style.backgroundColor = 'lightblue';
+liBaru.style.backgroundColor = 'lightblue';
+h2baru.style.backgroundColor = 'lightblue';
