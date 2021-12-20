@@ -14,3 +14,15 @@ function ubahWarnaP2() {
 }
 
 p2.onclick = ubahWarnaP2;
+
+
+// // addEventListener
+const p4 = document.querySelector('section#b p');
+p4.addEventListener('click', () => {
+    const ul = document.querySelector('section#b ul');
+    const liBaru = document.createElement('li');
+    const textLiBaru = document.createTextNode('item baru');
+
+    liBaru.appendChild(textLiBaru);
+    ul.appendChild(liBaru);
+})
