@@ -19,3 +19,31 @@ tAcakWarna.addEventListener('click', () => {
     const b = Math.round(Math.random() * 255);
     document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 })
+
+const sMerah = document.querySelector('input[name="sMerah"]');
+const sHijau = document.querySelector('input[name="sHijau"]');
+const sBiru = document.querySelector('input[name="sBiru"]');
+
+sMerah.addEventListener('input', () => {
+    // console.log(sMerah.value);
+    const r = sMerah.value;
+    const g = sHijau.value;
+    const b = sBiru.value;
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+})
+
+sHijau.addEventListener('input', () => {
+    // console.log(sMerah.value);
+    const r = sMerah.value;
+    const g = sHijau.value;
+    const b = sBiru.value;
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+})
+
+sBiru.addEventListener('input', () => {
+    // console.log(sMerah.value);
+    const r = sMerah.value;
+    const g = sHijau.value;
+    const b = sBiru.value;
+    document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+})
