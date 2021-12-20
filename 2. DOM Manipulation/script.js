@@ -39,3 +39,18 @@ pBaru.appendChild(textPBaru);
 // // // simpan ke section a
 const sectionA = document.querySelector('section#a');
 sectionA.appendChild(pBaru);
+
+// // // insertBefore
+const liBaru = document.createElement('li');
+const textLiBaru = document.createTextNode('item baru');
+
+// // // simpan ke dalam elemen liBaru
+liBaru.appendChild(textLiBaru);
+
+// // // simpan ke section b
+const ul = document.querySelector('section#b ul');
+// // // membuat variable yang akan di insert
+const li2 = ul.querySelector('li:nth-child(2)');
+
+// // // simpan liBaru di section 
+ul.insertBefore(liBaru, li2);
