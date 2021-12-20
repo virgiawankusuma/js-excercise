@@ -1,5 +1,5 @@
 const tUbahWarna = document.getElementById('tUbahWarna');
-const body = document.querySelector('body');
 tUbahWarna.onclick = () => {
-    body.style.backgroundColor = 'lightblue';
+    // document.body.style.backgroundColor = 'lightblue';
+    document.body.setAttribute('class', 'biru-muda');
 }
