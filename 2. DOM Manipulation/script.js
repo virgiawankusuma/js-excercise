@@ -19,11 +19,23 @@
 // a.setAttribute('href', 'https://google.com');
 
 // // classList
-const p2 = document.querySelector('.p2');
-p2.classList.add('label');
-p2.classList.add('satu');
-p2.classList.add('dua');
-p2.classList.add('tiga');
+// const p2 = document.querySelector('.p2');
+// p2.classList.add('label');
+// p2.classList.add('satu');
+// p2.classList.add('dua');
+// p2.classList.add('tiga');
 
-console.log(p2.classList.item(1));
-console.log(p2.classList.contains('dua'));
+// console.log(p2.classList.item(1));
+// console.log(p2.classList.contains('dua'));
+
+
+// // createElement, createTextNode, appendChild
+const pBaru = document.createElement('p');
+const textPBaru = document.createTextNode('Paragraf Baru');
+
+// // // simpan tulisan ke dalam elemen pBaru
+pBaru.appendChild(textPBaru);
+
+// // // simpan ke section a
+const sectionA = document.querySelector('section#a');
+sectionA.appendChild(pBaru);
