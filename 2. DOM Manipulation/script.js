@@ -54,3 +54,21 @@ const li2 = ul.querySelector('li:nth-child(2)');
 
 // // // simpan liBaru di section 
 ul.insertBefore(liBaru, li2);
+
+
+// // removeChild, replaceChild
+// // // menghapus elemen
+const linkInstagram = sectionA.getElementsByTagName('a')[0];
+sectionA.removeChild(linkInstagram);
+
+// // // mengganti elemen
+const sectionB = document.querySelector('section#b');
+const p4 = sectionB.querySelector('p');
+
+// // // // membuat elemen baru
+const h2baru = document.createElement('h2');
+const textH2baru = document.createTextNode('Judul Baru');
+h2baru.appendChild(textH2baru);
+
+// // // // mengganti elemen dengan elemen baru
+sectionB.replaceChild(h2baru, p4);
