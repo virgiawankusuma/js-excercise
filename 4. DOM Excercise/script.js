@@ -47,3 +47,20 @@ sBiru.addEventListener('input', () => {
     const b = sBiru.value;
     document.body.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 })
+
+document.body.addEventListener('mousemove', (e) => {
+    // posisi mouse 
+    // console.log(e.clientX);
+    // console.log(e.clientY);
+
+    // ukuran Browser
+    // console.log(window.innerWidth);
+
+    const xPos = Math.round((e.clientX / window.innerWidth) * 255);
+    const yPos = Math.round((e.clientY / window.innerHeight) * 255);
+
+    // console.log(xPos);
+    // console.log(yPos);
+
+    document.body.style.backgroundColor = `rgb(${xPos}, ${yPos}, 100)`;
+})
