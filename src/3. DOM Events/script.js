@@ -15,7 +15,6 @@
 
 // p2.onclick = ubahWarnaP2;
 
-
 // // // addEventListener
 // const p4 = document.querySelector('section#b p');
 // p4.addEventListener('click', () => {
@@ -28,7 +27,7 @@
 // })
 
 // //  Perbedaan Event Handler dan addEventListener
-const p3 = document.querySelector('.p3');
+const p3 = document.querySelector('.p3')
 
 // // // Event handler
 // p3.onclick = () => {
@@ -41,9 +40,9 @@ const p3 = document.querySelector('.p3');
 
 // // // addEventListener
 p3.addEventListener('click', () => {
-    p3.style.backgroundColor = 'lightblue';
+  p3.style.backgroundColor = 'lightblue'
 })
 
 p3.addEventListener('click', () => {
-    p3.style.color = 'red';
+  p3.style.color = 'red'
 })
