@@ -27,10 +27,12 @@
 // // this mengembalikan object yang Bersangkutan
 
 // // cara 3 - constructor
-function Halo() {
-    console.log(this);
-    console.log('halo');
+function Halo () {
+  console.log(this)
+  console.log('halo')
 }
-var obj1 = new Halo();
-var obj2 = new Halo();
+// eslint-disable-next-line no-unused-vars
+const obj1 = new Halo()
+// eslint-disable-next-line no-unused-vars
+const obj2 = new Halo()
 // this mengembalikan object yang baru dibuat
