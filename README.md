@@ -1,8 +1,2 @@
 # js-object-excercise
-This repository is just for practice implementing objects in javascript.
-
-1. [**Javascript Dasar**](https://github.com/virgiawankusuma/js-object-excercise/tree/js-dasar).  
-2. [**Javascript & DOM (Document Object Model)**](https://github.com/virgiawankusuma/js-object-excercise/tree/js-DOM).
-3. [**Javascript Lanjutan**](https://github.com/virgiawankusuma/js-object-excercise/tree/js-lanjutan).  
-
-*In Javascript, object are **King**. If you understand object, you understand javascript.*
+[Javascript & DOM (Document Object Model) WPU playlist](https://youtube.com/playlist?list=PLFIM0718LjIWB3YRoQbQh82ZewAGtE2-3)
